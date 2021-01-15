@@ -1,0 +1,14 @@
+section {
+    text-align: center;
+}
+
+div {
+    display: block;
+    margin: 100px auto;
+}
+
+div > img {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}

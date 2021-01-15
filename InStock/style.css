@@ -1,0 +1,112 @@
+@font-face { font-family: Title; src: url('LEMONMILK-Bold.ttf'); }
+
+@keyframes moveInEffect {
+    0% {top: -50px; }
+    100% { top: 0px; }
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+h1 {
+    font-size:80px;
+    font-family: Title;
+    text-align: center;
+    margin-top: 5%;
+    animation-name: moveInEffect;
+    animation-duration: 0.6s;
+    position: relative;
+}
+
+p {
+    animation-name: moveInEffect;
+    animation-duration: 0.8s;
+    position: relative;
+}
+
+h3 {
+    font-size:40px;
+    font-family: Title;
+    animation-name: moveInEffect;
+    animation-duration: 1s;
+    position: relative;
+}
+
+section > p {
+    font-size:1em;
+    text-align: center
+}
+
+.home-search {
+    background-color: transparent;
+    border: 0;
+}
+
+#Search_Group {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px !important;
+    border: 2px solid #000;
+    border-radius: 5%;
+    width: 33.33vw;
+    height: 48px;
+    display: block;
+    background-color: lightgrey;
+    animation-name: moveInEffect;
+    animation-duration: 1.2s;
+    position: relative;
+}
+
+#searchBox {
+    color: black;
+    float: left;
+    margin: 10px;
+    border: none;
+    outline: none;
+    width: 28.33vw;
+}
+
+#Search_Button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px !important;
+    padding: 6px;
+    background-color: white !important;
+    border: 2px solid black;
+    animation-name: moveInEffect;
+    animation-duration: 2s;
+    position: relative;
+}
+
+#instructions {
+    text-align: center;
+    animation-name: moveInEffect;
+    animation-duration: 2s;
+    position: relative;
+}
+
+div h5 {
+    float: left;
+}
+
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.instruction_image {
+    display: inline-block;
+    text-align: center;
+    width: 60vw;
+    height: auto;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
